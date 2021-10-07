@@ -24,13 +24,12 @@ object CameraUtils {
     @WorkerThread
     private fun getCameraInstance(cameraId: Int): Camera? {
         var cameraId = cameraId
-        val camera: Camera?
         val numOfCameras = Camera.getNumberOfCameras()
         if (cameraId >= numOfCameras) {
             Log.w(TAG, "getCameraInstance() called with: cameraId = [$cameraId] - Not Found")
             return null
         }
-        camera = try {
+        val camera: Camera? = try {
             Camera.open(cameraId)
         } catch (e: RuntimeException) {
             Log.e(TAG, "Caught: " + e.message, e)
@@ -78,12 +77,14 @@ object CameraUtils {
      */
     @JvmStatic
     fun toggleFlashlight(camera: Camera, enabled: Boolean) {
+
         val parameters = camera.parameters
         if (enabled) {
             parameters.flashMode = Camera.Parameters.FLASH_MODE_TORCH
         } else {
             parameters.flashMode = Camera.Parameters.FLASH_MODE_OFF
         }
+        // TODO this crashes the emulator, migrate to camera2
         camera.parameters = parameters
     }
 }
