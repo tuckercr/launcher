@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_menu">
+        <item>Select App</item>
+        <item>Change Icon</item>
+        <item>Change Color</item>
+    </string-array>
+</resources>

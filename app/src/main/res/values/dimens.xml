@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="icon_min_height">140dp</dimen>
+    <dimen name="app_min_height">48dp</dimen>
+    
+    <!-- For the magnifier -->
+    <dimen name="button_height_primary">80dp</dimen>
+    <dimen name="button_height_secondary">60dp</dimen>
+</resources>

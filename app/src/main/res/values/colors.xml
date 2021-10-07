@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO define these -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Colors from here -->
+    <!-- https://www.viget.com/articles/color-contrast -->
+
+    <color name="phone">#839B3B</color>
+    <color name="text">#738437</color>
+    <color name="camera">#197C72</color>
+    <color name="gallery">#1EA198</color>
+    <color name="calendar">#2B88C8</color>
+    <color name="clock">#2775A0</color>
+    <color name="contacts">#565989</color>
+    <color name="calculator">#6D6EB2</color>
+    <color name="internet">#D63182</color>
+    <color name="email">#A8296C</color>
+    <color name="map">#B42925</color>
+    <color name="sos">#DE3226</color>
+    <color name="magnifier">#D0942B</color>
+    <color name="flashlight">#DAB129</color>
+    <color name="all_apps">#000000</color>
+
+    <color name="darkGrey">#212121</color>
+
+    <!--<color name="coralOrange">#F26D21</color>-->
+    <!--<color name="coralDarkerOrange">#DA621E</color>-->
+    <!--<color name="aliceBlue">#1496BB</color>-->
+    <!--<color name="aliceDarkestBlue">#107896</color>-->
+    <color name="lighterIndigo">#3C6478</color>
+    <!--<color name="rubyRed">#C02F1D</color>-->
+    <color name="darkerRubyRed">#ad2a1a</color>
+    <!--<color name="kellyGreen">#A3B86C</color>-->
+    <!--<color name="kellyLighterGreen">#B5C689</color>-->
+    <color name="black">#000000</color>
+    <!--<color name="daisyDarker">#D3B53D</color>-->
+
+</resources>
