@@ -1,6 +1,6 @@
 # EZ Launcher
 
-A custom Android Launcher, with large buttons and a simplified feature set.  This app designed for ease of use by the elderly or vision impaired.
+A custom Android Launcher, with large buttons and a simplified feature set designed for ease of use by the elderly or vision impaired.
 
 A built in magnifier app features a zoom function, flashlight toggle and high contrast modes.
 
